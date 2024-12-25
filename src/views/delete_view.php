@@ -7,12 +7,12 @@
 <body>
 
 <form method="post">
-    Czy usunąć produkt: <?= $product['name'] ?>?
+    Czy usunąć produkt: <?= $image['name'] ?>?
 
-    <input type="hidden" name="id" value="<?= $product['_id'] ?>">
+    <input type="hidden" name="id" value="<?= $image['_id'] ?>">
 
     <div>
-        <a href="products" class="cancel">Anuluj</a>
+        <a href="gallery" class="cancel">Anuluj</a>
         <input type="submit" value="Potwierdź"/>
     </div>
 </form>

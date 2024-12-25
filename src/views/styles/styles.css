@@ -1,0 +1,214 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+html {
+     scroll-behavior: smooth; 
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+select{
+    margin: 10px 0 20px 0;
+}
+noscript{
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+footer{
+    margin-top: 40px;
+    padding:10px 0 10px 0;
+    background-color: #333;
+}
+
+footer p::first-letter {
+    font-size: 16px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 8px 0 8px 0;
+}
+  
+
+.main-title {
+    text-align: center;
+    font-size:  12vw;
+    animation: opacity-change 2s;
+    
+}
+
+
+
+#title-div {
+    height: 648px;
+}
+
+#main-title-1 {
+    margin-top: 4vw;
+    text-align: left;
+    margin-left: 25vw;
+}
+#main-title-2 { 
+    text-align: right;
+    margin-right: 25vw;
+}
+
+
+
+#hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-buttons {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+body {
+    background-color: #262626;
+    color: #fafafa;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 0 0 0 0;
+    
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3{
+    font-size: 40px;
+}
+
+article {
+    width:60%;
+    margin: 0 auto 0 auto;
+}
+
+p{
+    font-size: 24px
+}
+p::first-letter{
+    font-size: 26px;
+}
+
+
+
+a{
+    color:#fafafa
+}
+
+a:hover{
+    color:#dadada;
+}
+
+
+
+
+#send-btn {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    border-radius: 70px;
+    box-shadow: 0 0 40px 5px black;
+    font-family: Roboto, sans-seris;
+    width: auto;
+    font-size: 56px;
+    width: 350px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn:hover{
+    box-shadow: 0 0 36px 4px #404040;
+}
+
+#spec-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: inherit;
+    background-color: inherit;
+}
+
+#spec-table th, #spec-table td {
+    border: 2px solid #8888ff;
+    padding: 10px;
+    text-align: left;
+}
+
+#spec-table th {
+    background-color: inherit;
+    font-size: 24px;
+}
+
+#spec-table tr:nth-child(even) {
+    background-color: inherit;
+}
+
+#spec-table tr:hover {
+    background-color: #707070;
+}
+
+#drone-img{
+    width: 100%;
+}
+
+#drone-flying-figure {
+    width: 100%;
+    margin: 0 10px 0 10px;
+}
+
+#go-to-top-div{
+    
+    height: 8%;
+    width: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #363636;
+    border-radius: 50%;
+}
+
+#go-to-top-img{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
+.dotted-div {
+    border-width: 2px;
+    border-color: #8888ff;
+    border-style: dotted;
+}
+
+@keyframes opacity-change {
+    0%    { opacity: 0; }
+    100%  { opacity: 1; }
+  }
+#drone-svg {
+    max-width: 100%;
+    transition: all 4s linear;
+}
+
+#drone-svg:hover{
+    transform: rotate(180deg);
+}

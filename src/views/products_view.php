@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="static/css/styles.css"/>
 </head>
 <body>
+<a href="submit">Dodaj obrazek</a>
 
 <table>
     <thead>

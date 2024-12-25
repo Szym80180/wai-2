@@ -1,0 +1,48 @@
+body {
+  padding: 0px;
+  background-color: #97b8ed;
+}
+
+.magnify {
+  margin: 20px auto;
+  display: inline-block;
+  position: relative;
+}
+.magnify .magnified {
+  display: block;
+  z-index: 10;
+  margin: auto;
+  width: 600px;
+  height: 450px;
+  border: 5px solid #fff;
+}
+.magnify .magnifier {
+  height: 300px;
+  width:300px;
+  position: absolute;
+  z-index: 20;
+  border: 4px solid white;
+  border-radius: 50%;
+  background-size: 1000%;
+  background-repeat: no-repeat;
+  margin-left: -40px !important;
+  margin-top: -40px !important;
+  pointer-events: none;
+  display: none;
+}
+img{
+  width: 100%;
+  height:100%;  
+  cursor: zoom-in;
+}
+
+@media screen and (max-width: 1020px) {
+  .magnify, .magnified, .magnifier
+  {
+    display: none;
+  }
+  #zoom-image-div
+  {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+#add-button{
+    padding:10px;
+    border-radius:5px;
+    margin: 0 0 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container{
+    height: 90%;
+}
+
+main{
+    height: 10%;
+    width: 100%;
+}
+
+#form-section{
+    height:80%;
+}
+
+input {
+    margin-bottom:  10px;
+}
+
+input.btn{
+    margin-top: 10px;
+}

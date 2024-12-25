@@ -6,22 +6,21 @@
 </head>
 <body>
 
-<form method="post">
+<form method="post" class="wide">
     <label>
         <span>Nazwa:</span>
-        <input type="text" name="name" value="<?= $product['name'] ?>" required/>
+        <input type="text" name="name" value="<?= $image['name'] ?>" required/>
     </label>
     <label>
-        <span>Cena:</span>
-        <input type="text" name="price" value="<?= $product['price'] ?>" required/>
+        <span>Autor:</span>
+        <input type="text" name="price" value="<?= $image['author'] ?>" required/>
     </label>
 
-    <textarea name="description" placeholder="Opis..."><?= $product['description'] ?></textarea>
 
-    <input type="hidden" name="id" value="<?= $product['_id'] ?>">
+    <input type="hidden" name="id" value="<?= $image['_id'] ?>">
 
     <div>
-        <a href="products" class="cancel">Anuluj</a>
+        <a href="gallery" class="cancel">Anuluj</a>
         <input type="submit" value="Zapisz"/>
     </div>
 </form>

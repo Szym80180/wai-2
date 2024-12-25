@@ -12,13 +12,14 @@
 
 <p class="description"><?= $product['description'] ?></p>
 
-<form action="cart/add" method="post" class="wide">
+<form action="cart/add" method="post" class="wide" enctype="multipart/form-data">
     <input type="hidden" name="id" value="<?= $product['_id'] ?>"/>
 
     <div>
         <a href="products" class="cancel">&laquo; Wróć</a>
         <input type="submit" name="add_to_cart" value="Do koszyka"/>
     </div>
+    
 </form>
 
 <?php dispatch($routing, '/cart') ?>

@@ -38,13 +38,16 @@ textarea {
 
 form label input {
     width: 700px;
-    float: right;
+    float: left;
+}
+form input{
+    margin: 10px 0 10px 0;
 }
 
 form input[type=submit] {
     display: block;
     width: 80px;
-    margin: 10px 0px 10px 720px;
+    margin: 10px 0px 10px 0px;
 }
 
 form.inline, form.inline input {
@@ -60,4 +63,8 @@ a.cancel {
 p.description {
     width: 800px;
     text-align: justify;
+}
+
+.error {
+    color: red;
 }
